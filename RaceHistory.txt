@@ -13,3 +13,8 @@ Le mans-- Estandard
 1. Seat Ibiza
 2. Seat Inca
 3. Seat 600
+2020-05-12T17:09:03.674
+Le mans-- Eliminatoria
+1. Seat Tres
+2. Seat Inca
+3. Seat 600
