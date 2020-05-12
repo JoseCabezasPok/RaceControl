@@ -1,0 +1,45 @@
+package race.control;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.util.ArrayList;
+
+public class Garaje {
+
+	private String escuderia;
+	private ArrayList<Coche> listaCoches;	
+	
+	public String getEscuderia() {
+		return escuderia;
+	}
+	public void setEscuderia(String escuderia) {
+		this.escuderia = escuderia;
+	}
+	public ArrayList<Coche> getListaCoches() {
+		return listaCoches;
+	}
+	public void setListaCoches(ArrayList<Coche> listaCoches) {
+		this.listaCoches = listaCoches;
+	}
+
+	public Garaje(String escuderia, ArrayList<Coche> listaCoches) {
+		super();
+		this.escuderia = escuderia;
+		this.listaCoches = listaCoches;
+	}
+	public void llenarGaraje(File f) throws IOException, ClassNotFoundException {
+		FileInputStream fis = new FileInputStream(f);
+		ObjectInputStream obs = new ObjectInputStream(fis);
+		Coche c = new Coche("","",0);
+		try {
+			while((c=(Coche)obs.readObject())!=null) {
+				if(c!=null)
+				this.listaCoches.add(c);
+			}
+		}catch(java.io.EOFException eof) {}
+		fis.close();
+		obs.close();
+	}
+}
