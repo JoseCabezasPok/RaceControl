@@ -38,3 +38,8 @@ Le mans-- Estandard
 1. Honda Chif
 2. Honda Billy bi
 3. Honda Civic
+2020-05-12T19:24:05.856
+Daytona-- Estandard
+1. Seat Mallorca
+2. Seat Toledo
+3. Seat Fiesta
