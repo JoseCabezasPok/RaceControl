@@ -1,3 +1,4 @@
+
 package race.control;
 
 import java.awt.Desktop;
@@ -20,7 +21,7 @@ public class Control {
 		Scanner e = new Scanner(System.in);
 		System.out.println("Introduce nombre Garaje: ");
 		marca = e.nextLine();
-		String archivo = marca.concat(".txt");
+		String archivo = "Escuderias\\"+marca.concat(".txt");
 		File f = new File(archivo);	
 		FileOutputStream fos = new FileOutputStream(f,true);	
 		ObjectOutputStream obs = new ObjectOutputStream(fos);

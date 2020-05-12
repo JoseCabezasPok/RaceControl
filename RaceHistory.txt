@@ -43,3 +43,13 @@ Daytona-- Estandard
 1. Seat Mallorca
 2. Seat Toledo
 3. Seat Fiesta
+2020-05-12T19:40:39.517
+Daytona-- Eliminatoria
+1. Ferrari 612
+2. Ferrari Mondial
+3. Ferrari 250
+2020-05-12T19:41:38.006
+Le mans-- Estandard
+1. Hyunday Connect
+2. Hyunday Z4
+3. Hyunday Tenor
