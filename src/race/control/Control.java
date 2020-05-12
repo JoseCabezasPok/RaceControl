@@ -60,8 +60,7 @@ public class Control {
 			i++;
 		}
 		System.out.println("Elige tu escudería!");
-		i=e.nextInt();
-		
+		i=e.nextInt();		
 		ArrayList<Coche> lista =new ArrayList<Coche>();
 		ArrayList<Coche> podium =new ArrayList<Coche>();
 		Garaje g = new Garaje("",lista);
@@ -72,8 +71,7 @@ public class Control {
 			i++;
 		}
 		System.out.println("Elige tu carrrera!");
-		i = e.nextInt();
-		
+		i = e.nextInt();		
 		if(tipo==0) {
 		MotorEliminatorio me = new MotorEliminatorio(listaCarreras.get(i-1),g.getListaCoches());
 		podium = me.simularCarrera();
