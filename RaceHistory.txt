@@ -53,3 +53,38 @@ Le mans-- Estandard
 1. Hyunday Connect
 2. Hyunday Z4
 3. Hyunday Tenor
+2020-05-13T09:58:08.311
+Daytona-- Estandard
+1. Ferrari Testarrosa
+2. Ferrari 250
+3. Ferrari 812
+2020-05-13T09:59:42.719
+Le mans-- Estandard
+1. Ferrari Roma
+2. Ferrari 612
+3. Ferrari Testarrosa
+2020-05-13T10:00:00.159
+Valencia-- Eliminatoria
+1. Seat Ibiza
+2. Seat Mallorca
+3. Seat 600
+2020-05-13T10:00:48.985
+Jerez-- Estandard
+1. Hyunday Sian
+2. Hyunday Tenor
+3. Hyunday Connect
+2020-05-13T10:00:54.509
+Daytona-- Estandard
+1. Ferrari Roma
+2. Ferrari 400
+3. Ferrari Daytona
+2020-05-13T10:09:52.111
+Valencia-- Eliminatoria
+1. Ferrari Daytona
+2. Ferrari Roma
+3. Ferrari 250
+2020-05-13T10:10:22.619
+Montmelo-- Eliminatoria
+1. Hyunday Z4
+2. Hyunday Ciruela
+3. Hyunday Connect

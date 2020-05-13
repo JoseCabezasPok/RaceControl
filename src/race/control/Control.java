@@ -15,6 +15,7 @@ import java.util.Scanner;
 
 public class Control {
 	final static String PATHRACEHISTORY = "RaceHistory.txt";
+	static ArrayList <Carrera> listaCarreras = new ArrayList<Carrera>();
 	public static void  añadirCoches() throws IOException{
 
 		String marca="a",modelo="m";
@@ -36,7 +37,7 @@ public class Control {
 		obs.close();
 		fos.close();
 	}
-	public static void  añadirCarreras() throws IOException{
+	public static void  añadirCarreras() throws IOException, ClassNotFoundException{
 
 		String nombre="a";
 		Scanner e = new Scanner(System.in);
@@ -50,6 +51,7 @@ public class Control {
 				obs.writeObject(c);
 		obs.close();
 		fos.close();
+		listaCarreras = cargarCarreras();
 	}
 	public static void carrera(ArrayList <Carrera> listaCarreras, int tipo) throws ClassNotFoundException, IOException {
 		File archivoEscuderias = new File("Escuderias");
@@ -116,18 +118,22 @@ public class Control {
 		}while(opt<1 || opt>6);
 		return opt;
 	}
-	
+	public static ArrayList <Carrera> cargarCarreras() throws ClassNotFoundException, IOException {
+		listaCarreras.clear();
+		File fc = new File("Carreras");
+		File fc1[] = fc.listFiles();
+		for(File f : fc1) {
+			FileInputStream fis = new FileInputStream(f);
+			ObjectInputStream obs = new ObjectInputStream(fis);
+			listaCarreras.add((Carrera)obs.readObject());
+			fis.close();
+			obs.close();
+		}
+		return listaCarreras;
+	}
 	public static void main(String[] args) throws IOException, ClassNotFoundException {
-			ArrayList <Carrera> listaCarreras = new ArrayList<Carrera>();
-			File fc = new File("Carreras");
-			File fc1[] = fc.listFiles();
-			for(File f : fc1) {
-				FileInputStream fis = new FileInputStream(f);
-				ObjectInputStream obs = new ObjectInputStream(fis);
-				listaCarreras.add((Carrera)obs.readObject());
-				fis.close();
-				obs.close();
-			}
+			
+			listaCarreras = cargarCarreras();
 			int opt =0;
 			do {
 			switch(opt=menu()) {
