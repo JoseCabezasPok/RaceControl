@@ -53,7 +53,7 @@ public class Control {
 		fos.close();
 		listaCarreras = cargarCarreras();
 	}
-	public static void carrera(ArrayList <Carrera> listaCarreras, int tipo) throws ClassNotFoundException, IOException {
+	public static void carrera(ArrayList <Carrera> listaCarreras, String tipo) throws ClassNotFoundException, IOException {
 		File archivoEscuderias = new File("Escuderias");
 		File f1[] = archivoEscuderias.listFiles();
 		Scanner e = new Scanner(System.in);
@@ -79,7 +79,7 @@ public class Control {
 		}
 		System.out.println("Elige tu carrrera!");
 		i = e.nextInt();		
-		if(tipo==0) {
+		if(tipo.equals("Eliminatorio")) {
 		MotorEliminatorio me = new MotorEliminatorio(listaCarreras.get(i-1),g.getListaCoches());
 		podium = me.simularCarrera();
 		System.out.println("La carrera eliminatoria "+me.getCarrera().getNombre()+" ha terminado!");
@@ -94,7 +94,7 @@ public class Control {
 		LocalDateTime date = LocalDateTime.now();
 		fw.write(date.toString()+"\n");
 		String st;
-		if(tipo==0)
+		if(tipo.equals("Eliminatorio"))
 			st="Eliminatoria";
 		else
 			st="Estandard";
@@ -141,13 +141,13 @@ public class Control {
 			int opt =0;
 			do {
 			switch(opt=menu()) {
-			case 1:carrera(listaCarreras,0); break;
-			case 2: carrera(listaCarreras,1); break;
+			case 1:carrera(listaCarreras,"Eliminatorio"); break;
+			case 2: carrera(listaCarreras,"Estandard"); break;
 			case 3: añadirCarreras();break;
 			case 4: añadirCoches(); break;
-			case 5: File f = new File(PATHRACEHISTORY);
+			case 5: File historial = new File(PATHRACEHISTORY);
 					Desktop ds = Desktop.getDesktop();
-					ds.open(f);
+					ds.open(historial);
 					break;
 			default: System.out.println("Fin del programa"); break;
 			}

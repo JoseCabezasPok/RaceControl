@@ -1,6 +1,6 @@
 package race.control;
 
-public class CocheCorriendo extends Coche implements Comparable<CocheCorriendo>{
+public class CocheCorriendo extends Coche{
 	private int velocidad;
 	private int distanciaRecorrida;
 	
@@ -33,11 +33,6 @@ public class CocheCorriendo extends Coche implements Comparable<CocheCorriendo>{
 	}
 	public void setDistanciaRecorrida(int distanciaRecorrida) {
 		this.distanciaRecorrida = distanciaRecorrida;
-	}
-	@Override
-	public int compareTo(CocheCorriendo o) {
-		// TODO Auto-generated method stub
-		return o.distanciaRecorrida-this.distanciaRecorrida;
 	}
 
 }

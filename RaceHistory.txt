@@ -149,3 +149,113 @@ Montmelo-- Eliminatoria
 1. Mclaren Lemon
 2. Ferrari 612
 3. Hyunday Banana
+2020-05-13T11:18:41.333
+Jerez-- Eliminatoria
+1. Seat Mallorca
+2. Seat Toledo
+3. Seat Inca
+2020-05-13T11:19:09.404
+Valencia-- Estandard
+1. Seat Inca
+2. Ferrari 612
+3. Hyunday Tenor
+2020-05-13T15:02:28.338
+Jerez-- Estandard
+1. Ferrari Roma
+2. Ferrari Mondial
+3. Ferrari Daytona
+2020-05-13T15:02:36.563
+Jerez-- Eliminatoria
+1. Ferrari 250
+2. Ferrari Mondial
+3. Ferrari 612
+2020-05-13T15:02:40.599
+Jerez-- Eliminatoria
+1. Ferrari 400
+2. Ferrari Mondial
+3. Ferrari Daytona
+2020-05-13T15:02:42.949
+Jerez-- Eliminatoria
+1. Ferrari Roma
+2. Ferrari Mondial
+3. Ferrari 612
+2020-05-13T15:02:46.932
+Jerez-- Estandard
+1. Hyunday Z4
+2. Hyunday Ciruela
+3. Hyunday Tenor
+2020-05-13T15:02:50.907
+Jerez-- Estandard
+1. Hyunday Connect
+2. Hyunday Z4
+3. Hyunday Tenor
+2020-05-13T15:02:53.476
+Jerez-- Estandard
+1. Hyunday Marc
+2. Hyunday Connect
+3. Hyunday Ciruela
+2020-05-13T16:01:48.763
+Daytona-- Eliminatoria
+1. Ferrari 250
+2. Ferrari Roma
+3. Ferrari 612
+2020-05-13T16:01:52.038
+Daytona-- Eliminatoria
+1. Ferrari 812
+2. Ferrari Roma
+3. Ferrari Testarrosa
+2020-05-13T16:33:29.771
+Daytona-- Estandard
+1. Ferrari 250
+2. Ferrari Mondial
+3. Ferrari Testarrosa
+2020-05-13T16:33:33.890
+Jerez-- Estandard
+1. Ferrari Daytona
+2. Ferrari 612
+3. Ferrari 812
+2020-05-13T16:33:38.810
+Jerez-- Estandard
+1. Hyunday Connect
+2. Hyunday Infarto
+3. Hyunday Marc
+2020-05-13T16:33:41.366
+Jerez-- Estandard
+1. Hyunday Infarto
+2. Hyunday Ciruela
+3. Hyunday Banana
+2020-05-13T16:45:49.546
+Daytona-- Eliminatoria
+1. Ferrari 612
+2. Ferrari Daytona
+3. Ferrari Roma
+2020-05-13T16:46:03.673
+Jerez-- Eliminatoria
+1. Seat 600
+2. Ferrari 250
+3. Mclaren Bash
+2020-05-13T16:52:55.032
+Daytona-- Eliminatoria
+1. Ferrari 812
+2. Ferrari Daytona
+3. Ferrari 612
+2020-05-13T16:52:57.940
+Daytona-- Eliminatoria
+1. Ferrari 612
+2. Ferrari Testarrosa
+3. Ferrari 812
+2020-05-13T16:52:59.892
+Daytona-- Eliminatoria
+1. Ferrari Mondial
+2. Ferrari 400
+3. Ferrari 612
+2020-05-13T16:53:04.947
+Montmelo-- Estandard
+1. Seat Fiesta
+2. Seat Tres
+3. Seat Toledo
+2020-05-13T16:53:08.660
+Montmelo-- Estandard
+1. Seat Fiesta
+2. Seat Tres
+3. Seat 600
