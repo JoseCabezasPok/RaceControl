@@ -88,3 +88,64 @@ Montmelo-- Eliminatoria
 1. Hyunday Z4
 2. Hyunday Ciruela
 3. Hyunday Connect
+2020-05-13T10:43:02.619
+Daytona-- Eliminatoria
+1. Ferrari 612
+2. Hyunday Connect
+2020-05-13T10:43:21.759
+Jerez-- Estandard
+1. Hyunday Ciruela
+2. Ferrari 400
+3. Seat Inca
+2020-05-13T10:43:35.642
+Jerez-- Estandard
+1. Hyunday Connect
+2. Hyunday Sian
+3. Hyunday Z4
+2020-05-13T10:43:46.121
+Daytona-- Eliminatoria
+1. Ferrari 812
+2. Seat Toledo
+2020-05-13T10:44:00.588
+Valencia-- Eliminatoria
+1. Hyunday Infarto
+2. Seat Tres
+2020-05-13T10:44:22.994
+Valencia-- Eliminatoria
+1. Ferrari 612
+2. Seat Toledo
+2020-05-13T10:45:39.496
+Daytona-- Eliminatoria
+1. Ferrari Daytona
+2. Ferrari 812
+3. Ferrari Testarrosa
+2020-05-13T10:46:43.589
+Daytona-- Eliminatoria
+1. Hyunday Tenor
+2. Mclaren Pear
+3. Seat 600
+2020-05-13T10:47:01.753
+Le mans-- Eliminatoria
+1. Seat Inca
+2. Mclaren Apple
+3. Hyunday Infarto
+2020-05-13T10:47:09.298
+Jerez-- Eliminatoria
+1. Ferrari Mondial
+2. Mclaren Lemon
+3. Seat Tres
+2020-05-13T10:47:24.542
+Jerez-- Eliminatoria
+1. Seat Ibiza
+2. Seat Fiesta
+3. Seat Tres
+2020-05-13T10:47:30.201
+Le mans-- Eliminatoria
+1. Seat Inca
+2. Mclaren Denver
+3. Hyunday Melon
+2020-05-13T10:47:42.803
+Montmelo-- Eliminatoria
+1. Mclaren Lemon
+2. Ferrari 612
+3. Hyunday Banana

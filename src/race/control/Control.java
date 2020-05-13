@@ -62,12 +62,16 @@ public class Control {
 			System.out.println(i+". "+f2.getName().substring(0, f2.getName().length()-4));
 			i++;
 		}
+		System.out.println(i+". "+"Inter-Escuderias");
 		System.out.println("Elige tu escudería!");
 		i=e.nextInt();		
 		ArrayList<Coche> lista =new ArrayList<Coche>();
 		ArrayList<Coche> podium =new ArrayList<Coche>();
 		Garaje g = new Garaje("",lista);
-		g.llenarGaraje(f1[i-1]);
+		if(i==f1.length+1)
+			g.llenarGarajeAleatorio();
+		else
+			g.llenarGaraje(f1[i-1]);
 		i=1;
 		for(Carrera c : listaCarreras) {
 			System.out.println(i+". "+c.getNombre());
