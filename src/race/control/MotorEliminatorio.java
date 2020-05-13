@@ -1,13 +1,9 @@
-package race.control;
-
+package race.control; 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.Random;
 
 public class MotorEliminatorio extends Motor{
-
-
 	public MotorEliminatorio(Carrera carrera, ArrayList<Coche> listaCoches) {
 		super(carrera, listaCoches);
 	}

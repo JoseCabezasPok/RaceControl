@@ -1,10 +1,7 @@
 package race.control;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
-
-
 public abstract class Motor {
 	private Carrera carrera;
 	private ArrayList<Coche> listaCoches;
@@ -12,9 +9,7 @@ public abstract class Motor {
 		@Override
 		public int compare(CocheCorriendo o1, CocheCorriendo o2) {			
 			return o1.getDistanciaRecorrida()-o2.getDistanciaRecorrida();
-		}
-		
-		
+		}		
 	};
 	public Motor(Carrera carrera, ArrayList<Coche> listaCoches) {
 		super();
@@ -32,10 +27,10 @@ public abstract class Motor {
 		for(int i = 0;i<3;i++) {
 			podium.add(parrilla.get(i));
 		}
-		return podium;
-		
+		return podium;		
 	}
 	public abstract ArrayList<CocheCorriendo> simulacion(ArrayList<CocheCorriendo> c);
+	
 	public Carrera getCarrera() {
 		return carrera;
 	}

@@ -259,3 +259,23 @@ Montmelo-- Estandard
 1. Seat Fiesta
 2. Seat Tres
 3. Seat 600
+2020-05-13T17:36:47.309
+Jerez-- Eliminatoria
+1. Audi Klept
+2. Audi A4
+3. Audi Fury
+2020-05-13T17:36:54.580
+Jerez-- Eliminatoria
+1. Ferrari 812
+2. Ferrari Mondial
+3. Ferrari Daytona
+2020-05-13T17:37:01.055
+Jerez-- Estandard
+1. Audi T67
+2. Audi SIm
+3. Audi Road
+2020-05-13T17:37:20.995
+Coruña-- Eliminatoria
+1. Audi Etron
+2. Audi Fury
+3. Audi T67
