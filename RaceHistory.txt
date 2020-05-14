@@ -279,3 +279,18 @@ Coruña-- Eliminatoria
 1. Audi Etron
 2. Audi Fury
 3. Audi T67
+2020-05-14T10:10:41.566
+Le mans-- Estandard
+1. Seat 600
+2. Seat Tres
+3. Seat Ibiza
+2020-05-14T14:49:21.735
+Le mans-- Eliminatoria
+1. Hyunday Melon
+2. Ferrari Mondial
+3. Mclaren Pear
+2020-05-14T19:35:55.290
+Coruña-- Eliminatoria
+1. Audi Etron
+2. Audi A4
+3. Audi Road

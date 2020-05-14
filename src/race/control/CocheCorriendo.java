@@ -3,7 +3,7 @@ package race.control;
 public class CocheCorriendo extends Coche{
 	private int velocidad;
 	private int distanciaRecorrida;
-	
+	private int puntuacion=0;
 	public CocheCorriendo(String marca, String modelo, int velocidadMax, int velocidad, int distancia) {
 		super(marca, modelo, velocidadMax);
 		this.velocidad = velocidad;
@@ -33,6 +33,16 @@ public class CocheCorriendo extends Coche{
 	}
 	public void setDistanciaRecorrida(int distanciaRecorrida) {
 		this.distanciaRecorrida = distanciaRecorrida;
+	}
+
+
+	public int getPuntuacion() {
+		return puntuacion;
+	}
+
+
+	public void setPuntuacion(int puntuacion) {
+		this.puntuacion = puntuacion;
 	}
 
 }
