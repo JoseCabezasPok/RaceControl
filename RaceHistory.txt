@@ -294,3 +294,23 @@ Coruña-- Eliminatoria
 1. Audi Etron
 2. Audi A4
 3. Audi Road
+2020-05-14T22:26:12.440
+Daytona-- Eliminatoria
+1. Audi Lepra
+2. Audi Etron
+3. Audi Chem
+2020-05-14T22:53:54.573
+Coruña-- Eliminatoria
+1. Ferrari Mondial
+2. Ferrari 400
+3. Ferrari Daytona
+2020-05-14T23:04:15.296
+Omaha-- Eliminatoria
+1. Audi Etron
+2. Audi Fury
+3. Audi A4
+2020-05-15T10:52:03.168
+Jerez-- Eliminatoria
+1. Hyunday Melon
+2. Hyunday Sian
+3. Hyunday Z4

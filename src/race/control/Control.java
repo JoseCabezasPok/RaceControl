@@ -88,8 +88,12 @@ public class Control {
 			System.out.println(i+". "+c.getNombre());
 			i++;
 		}
+		do {
 		System.out.println("Elige tu carrrera!");
-		i = e.nextInt();		
+		try{
+		i = e.nextInt();	}catch(InputMismatchException ime) {i=Integer.MIN_VALUE; e.next();}
+		
+		}while(i<1 || i>listaCarreras.size());	
 		if(tipo.equals("Eliminatorio")) {
 		MotorEliminatorio me = new MotorEliminatorio(listaCarreras.get(i-1),g.getListaCoches());
 		podium = me.simularCarrera();
@@ -129,10 +133,12 @@ public class Control {
 		System.out.println("5.Añadir Carreras");
 		System.out.println("6.Añadir Escuderia");
 		System.out.println("7.Historico de Carreras");
-		System.out.println("8.fin");
+		System.out.println("8.Historico de Torneos");
+		System.out.println("9.Fin");
 		System.out.println("Opcion: ");
-		opt = e.nextInt();
-		}while(opt<1 || opt>8);
+		try {
+		opt = e.nextInt();}catch(InputMismatchException ime) {opt=Integer.MIN_VALUE; e.next();}
+		}while(opt<1 || opt>9);
 		return opt;
 	}
 	public static void torneo(String tipo) {
@@ -175,10 +181,13 @@ public class Control {
 					Desktop ds = Desktop.getDesktop();
 					ds.open(historial);
 					break;
+			case 8:
+					File historialC = new File("tourneyHistory.txt");
+					Desktop dsc = Desktop.getDesktop();
+					dsc.open(historialC);
+					break;			
 			default: System.out.println("Fin del programa"); break;
 			}
-		}while(opt!=8);
-	
-
+		}while(opt!=9);
 	}
 }

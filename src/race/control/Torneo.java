@@ -31,7 +31,6 @@ public class Torneo {
 			this.listaCarreras.clear();
 			this.listaCarreras = aux;
 		}
-
 	}
 	public ArrayList<Carrera> getListaCarreras() {
 		return listaCarreras;
